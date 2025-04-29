@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  frontend:
+    image: vue-app:latest
+    container_name: vue-app-container
+    ports:
+      - "8080:80"  # Маппинг портов: локальный 8080 -> контейнерный 80
+
+
